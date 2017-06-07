@@ -1,0 +1,152 @@
+/*  --------------------------------------------------------------------------------------Main Styling      */
+body {
+    font-family: sans-serif;
+}
+#container-exp {
+    border-radius: 10px;
+    margin: 20px;
+    width: 720px;
+    height: 550px;
+    background-color: #FFFFFF;
+}
+#myCanvas {
+    border: 3px solid black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#welcome {
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.95);
+    top: 180px;
+    left: 100px;
+    border: 1px solid black;
+}
+#welcomeName {
+    margin: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+#welcome p {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 15px;
+}
+#winScreen {
+    visibility:hidden;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 460px;
+    height: 460px;
+    background-color: rgba(255, 255, 255, 0.9);
+    top: 80px;
+    left: 70px;
+    border: 25px solid rgba(0, 0, 0, .3);
+    border-radius: 500px;
+}
+#winScore {
+    font-size: 128px;
+    margin: 0px;
+    margin-top: 60px;
+    padding-bottom: 0px;
+}
+#container-menu {
+    margin-left:30px;
+}
+.menuButtons {
+    height: 30px;
+    width: 120px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #777777;
+    color: white;
+    border: 1px solid #222222;
+}
+.leaderBoardButtons {
+    font-size: 16px;
+    width: 170px;
+    height: 30px;
+    margin: 2px 4px 2px 0px;
+    border-radius: 5px;
+    background-color: #777777;
+    color: white;
+    border: 1px solid #222222;
+}
+.menuButtons:hover, .leaderBoardButtons:hover {
+    background-color: #222222;
+    border-color: #777777;
+}
+#quit {
+    visibility: hidden;
+    float: right;
+}
+
+/*  --------------------------------------------------------------------------------------LeaderBoard   */
+#highScores {
+    font-size: 12px;
+    float: right;
+    display: inline;
+    position: absolute;
+    top: 156px;
+    left: 560px;
+}
+#highScores table {
+    width: 170px;
+    margin-top: 5px;
+    margin-left:10px;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+#highScores th {
+    color: white;
+    background-color: #222222;
+    padding: 10px;
+    vertical-align: middle;
+    border: 3px solid #777777;
+}
+#highScores td {
+    text-align: center;
+    border: 3px solid #777777;
+    padding: 2px 10px;
+}
+#submitInitials {
+    margin-top: 5px;
+    font-size: 16px;
+    width: 300px;
+}
+.invalidInput {
+    border: 3px solid red;
+}
+#scoreSelect tr {
+    height: 30px;
+}
+#scoreSelect td {
+    width: 170px;
+    border: none;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+/*  --------------------------------------------------------------------------------------Display   */
+#score, #bombs, #timer {
+    position: absolute;
+    font-size: 20px;
+    left: 600px;
+}
+#score {
+    top: 50px;
+}
+#timer {
+    top: 80px;
+}
+#bombs {
+    top: 110px;
+}
